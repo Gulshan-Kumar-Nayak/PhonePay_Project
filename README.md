@@ -65,3 +65,23 @@ To ensure the dashboard remains fast and scalable, I implemented a dedicated MyS
 * **Performance:** Optimized SQL queries to fetch only the required data, reducing memory load on the Streamlit application.
 
 ---
+
+---
+
+## 💡 Business Problem Statements & Insights
+The dashboard provides data-driven answers to critical business questions:
+* **Market Leaders:** Top 10 States/Districts by transaction volume and value.
+* **User Demographics:** District-wise distribution of registered users across India.
+* **Brand Analysis:** Mobile device preferences among PhonePe users.
+* **Growth Hotspots:** Identifying high-growth regions for merchant expansion.
+
+---
+
+## 🚀 How to Run Locally
+1. **Clone Repo:** `git clone [Your-Repo-Link-Here]`
+2. **Install Requirements:** `pip install -r requirements.txt`
+3. **Database Setup:** Run extraction scripts to populate your MySQL instance.
+4. **Launch App:** `streamlit run APP.py`
+
+---
+**Developed by Gulshan Kumar Nayak**
