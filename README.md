@@ -52,3 +52,16 @@ The extracted data was structured into the following schema before being injecte
 | **Transaction_Type** | String | Category (e.g., Merchant payments, P2P) |
 | **Transaction_Count** | BigInt | Total number of transactions |
 | **Transaction_Amount** | Float | Total monetary value in Rupees |
+
+
+---
+
+## 🔌 Database Connectivity & Integration
+
+To ensure the dashboard remains fast and scalable, I implemented a dedicated MySQL pipeline:
+
+* **Workflow:** Used `mysql-connector-python` and `SQLAlchemy` to automate data loading.
+* **Security:** Managed database credentials using **Environment Variables** to ensure no sensitive information is hardcoded in the scripts.
+* **Performance:** Optimized SQL queries to fetch only the required data, reducing memory load on the Streamlit application.
+
+---
