@@ -8,9 +8,9 @@ import requests
 def get_data(query):
     conn = mysql.connector.connect(
         host="localhost", 
-        user="root", 
-        password="0Rajeev@<3Me", 
-        database="phonepe_db"
+        user="DB_USER", 
+        password="DB_PASSWORD", 
+        database="DB_NAME"
     )
     df = pd.read_sql(query, conn)
     conn.close()
