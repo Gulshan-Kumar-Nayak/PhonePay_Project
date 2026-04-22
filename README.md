@@ -7,6 +7,9 @@ PhonePay Project - SQL+Python
 
 The core challenge of this project was converting PhonePe's multi-layered JSON structure into a clean, relational database.
 
+#### **Source Data**
+The data is sourced from the official [PhonePe Pulse GitHub Repository](https://github.com/PhonePe/pulse). This repository contains real-time aggregate data from the PhonePe ecosystem.
+
 #### **1. The Source Hierarchy (JSON Structure)**
 The raw data is nested deep within the repository across thousands of files following this pattern:
 ```text
